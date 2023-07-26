@@ -7,7 +7,7 @@ const container = document.getElementById("root");
 const root = createRoot(container!);
 root.render(
   <React.StrictMode>
-    <ThirdwebProvider>
+    <ThirdwebProvider activeChain="avalanche-fuji">
       <App />
     </ThirdwebProvider>
   </React.StrictMode>
