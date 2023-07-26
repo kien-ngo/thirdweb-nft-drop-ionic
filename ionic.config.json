@@ -1,0 +1,7 @@
+{
+  "name": "thirdweb-nft-drop-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
