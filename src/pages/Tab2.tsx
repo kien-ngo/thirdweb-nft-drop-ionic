@@ -65,7 +65,13 @@ const Tab2: React.FC = () => {
             }}
           >
             {nfts.map((item) => (
-              <IonCard>
+              <IonCard
+                style={{
+                  maxWidth: "85%",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              >
                 <img
                   alt="Silhouette of mountains"
                   src={item.metadata.image ?? "/cat.png"}
